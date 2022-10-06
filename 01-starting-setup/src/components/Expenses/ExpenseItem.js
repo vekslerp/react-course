@@ -5,7 +5,6 @@ import ExpenseDate from "./ExpenseDate";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
-  console.log("ExpenseItem reevaluated by React");
 
   // add 'Handler' name to all functions that are being called by event listeners
   const clickHandler = () => {
